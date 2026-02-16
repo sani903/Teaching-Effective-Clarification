@@ -1,0 +1,1 @@
+import{p as e}from"./chunk-NISHYRIK-CgksP-ke.js";function t(){return e.jsxs("div",{className:"flex items-center gap-2",children:[e.jsx("div",{className:"w-[48px] h-[24px] skeleton-round"}),e.jsx("div",{className:"w-[100px] h-[20px] skeleton"})]})}export{t as S};

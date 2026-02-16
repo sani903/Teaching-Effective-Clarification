@@ -1,0 +1,1 @@
+import{a}from"./use-config-BtaDlBUv.js";import{V as o}from"./feature-flags-1f3MRGYs.js";const s=e=>a({queryKey:["sandboxes","batch",e],queryFn:()=>o.batchGetSandboxes(e),enabled:e.length>0,staleTime:1e3*60*5,gcTime:1e3*60*15});export{s as u};

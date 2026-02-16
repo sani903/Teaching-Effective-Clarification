@@ -1,0 +1,1 @@
+The relevant script to run is ./evaluation/benchmarks/swe_bench/scripts/main_infer.sh. To select different LLM clarifications, modify the ./openhands/llm/preconditions_model.py file with the relevant column of the submission.xlsx or call an LLM to generate the questions.

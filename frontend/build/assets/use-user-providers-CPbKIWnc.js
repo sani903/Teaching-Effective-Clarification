@@ -1,0 +1,1 @@
+import{R as e}from"./chunk-NISHYRIK-CgksP-ke.js";import{u as r}from"./use-settings-y2Eq7ITW.js";const i=s=>{if(!s)return[];const t=[];for(const o of Object.keys(s))o&&t.push(o);return t},u=()=>{const{data:s,isLoading:t}=r();return{providers:e.useMemo(()=>i(s?.PROVIDER_TOKENS_SET),[s?.PROVIDER_TOKENS_SET]),isLoadingSettings:t}};export{u};
