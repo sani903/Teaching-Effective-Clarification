@@ -36,12 +36,21 @@ git merge upstream/main
 
 ## 🎓 Training
 
+Our reward pipeline uses multi-stage evaluation to train agents to generate high-quality clarification questions:
+
+![Reward Pipeline](assets/reward_pipeline.pdf)
+
 To train clarification question generation models:
 ```bash
 python openhands/training/train.py [arguments]
 ```
-
 See `openhands/training/train.py` for available training arguments and configurations.
+
+## 📊 Results
+
+We see that our trained model matches the performance of GPT-5 with 41% fewer questions.
+![Task Success vs Questions](assets/task_success_vs_questions.pdf)
+
 
 ## 📊 Data & Results
 
