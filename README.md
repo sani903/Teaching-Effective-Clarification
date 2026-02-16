@@ -38,7 +38,7 @@ git merge upstream/main
 
 Our reward pipeline uses multi-stage evaluation to train agents to generate high-quality clarification questions:
 
-<img src="assets/reward_pipeline.png" width="600">
+![Reward Pipeline](assets/reward_pipeline.png)
 
 To train clarification question generation models:
 ```bash
