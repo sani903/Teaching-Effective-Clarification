@@ -38,7 +38,7 @@ git merge upstream/main
 
 Our reward pipeline uses multi-stage evaluation to train agents to generate high-quality clarification questions:
 
-![Reward Pipeline](assets/reward_pipeline.png)
+<img src="assets/reward_pipeline.png" width="600">
 
 To train clarification question generation models:
 ```bash
@@ -49,7 +49,7 @@ See `openhands/training/train.py` for available training arguments and configura
 ## 📊 Results
 
 We see that our trained model matches the performance of GPT-5 with 41% fewer questions.
-![Task Success vs Questions](assets/task_success_vs_questions.png)
+<img src="assets/task_success_vs_questions.png" width="400">
 
 
 ## 📊 Data & Results
